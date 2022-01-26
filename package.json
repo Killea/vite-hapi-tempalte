@@ -2,7 +2,7 @@
   "name": "vite-hapi-template",
   "version": "0.0.0",
   "scripts": {
-    "dev": "concurrently --kill-others \"vite\" \"npx supervisor .\\back-end\\index.js\"",
+    "dev": "concurrently --kill-others \"vite\" \"node index.js\"",
     "dev2-origin": "vite",
     "build": "vite build",
     "preview": "vite preview"
